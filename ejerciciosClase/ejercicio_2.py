@@ -3,7 +3,9 @@
 
 from random import choice
 
-calificacion_alumno = {}
+from poo1 import Alumno
+
+calificacion_alumno = []
 calificaciones = (0,1,2,3,4,5,6,7,8,9,10)
 becarios = [
     'Angel Sánchez',
@@ -23,17 +25,17 @@ becarios = [
 
 def asigna_calificaciones():
     for b in becarios:
-        calificacion_alumno[b] = choice(calificaciones)
+        calificacion_alumno.append(Alumno(b,choice(calificaciones)))
 
 def imprime_calificaciones():
     for alumno in calificacion_alumno:
-        print('%s tiene %s\n' % (alumno,calificacion_alumno[alumno]))
+        print('%s tiene %s\n' % (alumno.nombre,alumno.calificacion))
 
 def separaAprobadosReprobados():
     aprobados = ()
     reprobados = ()
     for alumno in calificacion_alumno:
-        if(calificacion_alumno[alumno] >= 7):
+        if(alumno.calificacion >= 7):
             aprobados = aprobados + (alumno,)
         else:
             reprobados = reprobados + (alumno,)
@@ -42,13 +44,13 @@ def separaAprobadosReprobados():
 def promedioAlumnos():
     suma = 0
     for alumno in calificacion_alumno:
-        suma += calificacion_alumno[alumno]
+        suma += alumno.calificacion
     return suma / len(calificacion_alumno)
 
 def conjuntoCalificaciones():
     calificaciones = set()
     for alumno in calificacion_alumno:
-        calificaciones.add(calificacion_alumno[alumno])
+        calificaciones.add(alumno.calificacion)
     return calificaciones
 
 
