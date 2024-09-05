@@ -30,14 +30,14 @@ def imprime_calificaciones():
         print('%s tiene %s\n' % (alumno,calificacion_alumno[alumno]))
 
 def separaAprobadosReprobados():
-    aprobados = []
-    reprobados = []
+    aprobados = ()
+    reprobados = ()
     for alumno in calificacion_alumno:
         if(calificacion_alumno[alumno] >= 7):
-            aprobados.append(alumno)
+            aprobados = aprobados + (alumno,)
         else:
-            reprobados.append(alumno)
-    return [tuple(aprobados),tuple(reprobados)]
+            reprobados = reprobados + (alumno,)
+    return [aprobados,reprobados]
 
 def promedioAlumnos():
     suma = 0
@@ -46,11 +46,10 @@ def promedioAlumnos():
     return suma / len(calificacion_alumno)
 
 def conjuntoCalificaciones():
-    calificaciones = []
+    calificaciones = set()
     for alumno in calificacion_alumno:
-        calificaciones.append(calificacion_alumno[alumno])
-    return set(calificaciones)
-
+        calificaciones.add(calificacion_alumno[alumno])
+    return calificaciones
 
 
 asigna_calificaciones()
