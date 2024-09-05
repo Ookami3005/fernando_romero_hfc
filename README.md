@@ -4,4 +4,4 @@ Aqui se recopilan los ejercicios en clase y tareas que vaya realizando durante e
 
 ### Ejercicios en clase
 
-- [Ejercicio 2](ejercicio2/ejercicio_2.py) : (*Tuplas*, *Diccionarios* y *Conjuntos*)
+- [Ejercicio 2 y 3](ejerciciosClase/ejercicio_2.py) : (*Tuplas*, *Diccionarios* y *Conjuntos*)
