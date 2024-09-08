@@ -16,3 +16,4 @@ Aqui se recopilan los ejercicios en clase y tareas que vaya realizando durante e
 - [Tarea 1](tarea1/securePassGenerator.py) : (Generar una contraseña segura (*mayusculas*, *minusculas* y *dígitos*))(Random)
 - [Tarea 2](tarea2/guessNumber.py) : (Adivina un número entre 1 y 100)(Bucles y condicionales)
 - [Tarea 3](tarea3/passGenerator2.py) : (Genera contraseñas a partir de las palabras de un archivo) (Lectura y escritura de archivos)
+- [Tarea 4](tarea4/processXml.py) : (Procesa un extenso archivo *XML*) (ElementTree)
