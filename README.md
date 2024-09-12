@@ -10,6 +10,15 @@ Aqui se recopilan los ejercicios en clase y tareas que vaya realizando durante e
 - [Ejercicio 4](./ejerciciosClase/funcionesLambda.py) : (*Lambdas*)
 - [Ejercicio 5](./ejerciciosClase/mapFilter.py) : (Funciones de **orden superior** `map` y `filter`)
 - [Ejercicio 6](./ejerciciosClase/listasComprension.py) : (Listas por comprensión)
+- [Ejercicio 7](./ejerciciosClase/odiousNumbers.py) : Diccionario por comprensión
+- [Ejercicio 8](./ejerciciosClase/regex.py) : Expresiones regulares
+- [Ejercicio 9](./ejerciciosClase/inicioSesion.py) : Inicio de sesión
+  - Se utiliza las clases en el archivo [claseAlumno.py](./ejerciciosClase/claseAlumno.py)
+  - Se serializan los usarios en el archivo [usuario.txt](./ejerciciosClase/usuarios.txt)
+- [Ejercicio 11](./ejerciciosClase/recuperaMalware.py)
+  - Se utiliza con el archivo en cuarentena [./ejerciciosClase/cuarentena.VBN]
+  - Se obtiene una salida en el archivo [malware](./ejerciciosClase/malware) o el que se indique en la ejecución del *script*
+  - ! PRECAUCIÓN: Es un **malware** real, si eres de *Windows* no lo ejecutes, si tienes un sistema *UNIX* no corres peligro
 
 ### Tareas
 
