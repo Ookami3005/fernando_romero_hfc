@@ -16,7 +16,7 @@ Aqui se recopilan los ejercicios en clase y tareas que vaya realizando durante e
   - Se utiliza las clases en el archivo [claseAlumno.py](./ejerciciosClase/claseAlumno.py)
   - Se serializan los usarios en el archivo [usuario.txt](./ejerciciosClase/usuarios.txt)
 - [Ejercicio 11](./ejerciciosClase/recuperaMalware.py)
-  - Se utiliza con el archivo en cuarentena [./ejerciciosClase/cuarentena.VBN]
+  - Se utiliza con el archivo en cuarentena [cuarentena.VBN](./ejerciciosClase/cuarentena.VBN)
   - Se obtiene una salida en el archivo [malware](./ejerciciosClase/malware) o el que se indique en la ejecución del *script*
   - ! PRECAUCIÓN: Es un **malware** real, si eres de *Windows* no lo ejecutes, si tienes un sistema *UNIX* no corres peligro
 
