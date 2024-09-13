@@ -19,6 +19,9 @@ Aqui se recopilan los ejercicios en clase y tareas que vaya realizando durante e
   - Se utiliza con el archivo en cuarentena [cuarentena.VBN](./ejerciciosClase/cuarentena.VBN)
   - Se obtiene una salida en el archivo [malware](./ejerciciosClase/malware) o el que se indique en la ejecución del *script*
   - ! PRECAUCIÓN: Es un **malware** real, si eres de *Windows* no lo ejecutes, si tienes un sistema *UNIX* no corres peligro
+- [Ejercicio 12](./ejerciciosClase/portScanner.py) : Escaner de puertos usando *Socket*
+- [Ejercicio 13](./ejerciciosClase/scapyPortScanner.py) : Escaner de puertos usando *Scapy*
+- [Ejercicio 14](./ejerciciosClase/requestJson.py) : Ejercicios utilizando el módulo *Requests*
 
 ### Tareas
 
